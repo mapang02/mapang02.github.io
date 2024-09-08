@@ -16,7 +16,7 @@ The recombination technique (or ReCom) works by repeatedly selecting two adjacen
 
 Generating a large number of potential maps with this technique and analyzing the likely outcomes of elections held with those maps gives a sense of the range of likely outcomes from an electoral map created in a truly fair manner, and human-created maps which are extreme outliers relative to the random maps can be examined for bias. For example, if the randomly generated maps generally result in one party winning between 50% and 60% of the seats, then it indicates that a map which let that party win 80% of seats is likely gerrymandered.
 
-The ReCom technique was created by the MGGG Redistricting Lab at Tufts University. You can find their site [here](https://mggg.org/) and you can read the research paper describing this technique in further detail [here](https://mggg.org/uploads/ReCom.pdf).
+The ReCom technique was created by the MGGG Redistricting Lab at Tufts University, and we used their `gerrychain` Python library in our project when performing recombination. You can find their site [here](https://mggg.org/) and you can read the research paper describing this technique in further detail [here](https://mggg.org/uploads/ReCom.pdf).
 
 ## Analyzing Generated Maps
 Using data for the 2020 Presidential Election, we can predict the winners of state or federal Congressional elections using a given generated map (under the assumption that votes for a party in the Presidential election correspond to votes for a party in other elections). These results vary from map to map, but they provide a range of results that can be expected to occur from creating maps in an unbiased manner.
